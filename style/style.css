@@ -20,6 +20,13 @@ body::before {
   align-items: center;
   background-color: #1a1a1a;
 }
+
+.logo-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
 .logo {
   font-size: 30px;
   font-weight: bold;

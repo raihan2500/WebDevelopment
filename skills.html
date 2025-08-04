@@ -1,49 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Skills - Raihan Ahmed</title>
-  <link rel="stylesheet" href="style/style.css" />
-</head>
-<body>
-  <header class="navbar">
-    <div class="logo">RAIHAN AHMED</div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Raihan Ahmed</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+<body class="bg-gray-100 text-gray-900 min-h-screen flex flex-col">
+
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between">
+      <h1 class="text-xl font-bold text-blue-600">Raihan Ahmed</h1>
+      <nav class="space-x-4">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html" class="text-blue-600 font-semibold">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="skills-section" >
-    <h1>My Skills</h1>
-    <p>Here are some of the skills I excel at:</p>
-    <ul class="skills-list">
-      <li>C and C++ </li>
-      <li>Java</li>
-      <li>Git &amp; Version Control</li>
-      <li>HTML5 &amp; CSS3</li>
-    </ul>
+  <main class="max-w-4xl mx-auto px-4 py-20">
+    <h2 class="text-3xl font-bold text-center mb-10">My Skills</h2>
 
-    <section class="competitive-programming" style="margin-top: 3rem;">
-      <h2>Competitive Programming</h2>
-      <p>
-        I'm a <strong style="color: purple;">4-star</strong > coder on 
-        <a href="https://www.codechef.com/users/raihan2500" target="_blank" rel="noopener noreferrer">CodeChef</a> and an 
-        <strong style="color: blue;" >Expert</strong> on 
-        <a href="https://codeforces.com/profile/raihan2500" target="_blank" rel="noopener noreferrer">Codeforces</a>.
-      </p>
-      <ul>
-        <li>Strong problem solving and algorithmic thinking skills</li>
-        <li>Mastery of Data Structures &amp; Algorithms</li>
-        <li>Solved 2000+ problems in various online problem solving platform.</li>
-        <li>Regular participation in programming contest like IUPC / ICPC</li>
+    <div class="bg-white p-6 rounded-lg shadow space-y-6">
+      <p class="text-lg">Here are some of the skills I excel at:</p>
+
+      <ul class="list-disc pl-6 space-y-2 text-gray-800">
+        <li><strong>C and C++</strong></li>
+        <li><strong>Java</strong></li>
+        <li><strong>Git & Version Control</strong></li>
+        <li><strong>HTML5 & CSS3</strong></li>
+        <li><strong>Competitive Programming</strong><br />
+          I’m a <strong style="color: purple;">4★ Coder</strong> on <a href="https://www.codechef.com/users/raihan2500" target="_blank" class="text-blue-600 hover:underline">CodeChef</a> and an <strong style="color: blue;">Expert</strong> on <a href="https://codeforces.com/profile/raihan2500" target="_blank" class="text-blue-600 hover:underline">Codeforces</a>.
+        </li>
+        <li><strong>Strong Problem Solving and Algorithmic Thinking</strong></li>
+        <li><strong>Mastery of Data Structures & Algorithms</strong></li>
+        <li><strong>Solved 2000+ problems</strong> across various online platforms</li>
+        <li>Regular participant in contests like <strong> IUPC / ICPC </strong> </li>
       </ul>
-    </section>
+    </div>
   </main>
+
+  <footer class="mt-auto text-center py-6 border-t bg-white dark:bg-gray-800 text-sm text-gray-600 dark:text-gray-400">
+    © 2025 Raihan Ahmed. All rights reserved.
+  </footer>
+
 </body>
 </html>

@@ -6,3 +6,15 @@ a:hover {
 body {
   font-family: 'Inter', sans-serif;
 }
+button {
+  transition: background-color 0.3s ease;
+}
+
+.profile-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
